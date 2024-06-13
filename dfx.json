@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "canisters": {
+    "raw_url": {
+      "type": "rust",
+      "package": "raw_url",
+      "candid": "src/raw_url/interface.did"
+    },
+    "from_hex_str": {
+      "type": "rust",
+      "package": "from_hex_str",
+      "candid": "src/from_hex_str/interface.did"
+    },
+    "from_binary": {
+      "type": "rust",
+      "package": "from_binary",
+      "candid": "src/from_binary/interface.did"
+    },
+    "from_divided_hex_str": {
+      "type": "rust",
+      "package": "from_divided_hex_str",
+      "candid": "src/from_divided_hex_str/interface.did"
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": "",
+      "args": ""
+    }
+  },
+  "output_env_file": ".env"
+}
